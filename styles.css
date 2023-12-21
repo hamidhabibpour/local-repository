@@ -1,0 +1,28 @@
+:root{
+    --bs-font-sans-serif: "Roboto", sans-serif;
+    --bs-green:#75e375;
+    --bs-secondary:#7575e8;
+    --bs-primary:#0d960d;
+    --my-height:400px;
+}
+.container-fluid{
+background-color: var(--bs-green);
+height: var(--my-height);
+}
+
+.my-col{
+    border: 2px solid #000;
+    border-collapse: collapse;
+    height: 50px;
+}
+.container{
+    background-color: var(--bs-secondary);
+    height: var(--my-height);
+}
+.container-xxl{
+    background-color: palevioletred;
+}
+.spacing{
+border: 2px solid black;
+color: var(--bs-green);
+}
